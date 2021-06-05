@@ -10,7 +10,7 @@ const request = require('request');
  
  
  
-const token = 'YOUR TOKEN';
+const token = 'ODUwNzE5MzcyOTE2OTQ5MDIy.YLt0KA.ITSn7HnW0rR2xvmOWX4JnGctEeI';
  
 const PREFIX = '!';
  
@@ -41,7 +41,7 @@ bot.on('message', message => {
 function image(message){
  
     var options = {
-        url: "http://results.dogpile.com/serp?qc=images&q=" + "food",
+        url: "http://results.dogpile.com/serp?qc=images&q=" + "poop",
         method: "GET",
         headers: {
             "Accept": "text/html",
